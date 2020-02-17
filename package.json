@@ -1,7 +1,7 @@
 {
   "name": "ticket-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web scraper para puxar informações da conta de ticket https://www.ticket.com.br/",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
