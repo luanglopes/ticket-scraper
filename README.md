@@ -1,5 +1,5 @@
 # TicketScraper
-Construída com NodeJS, Express, Puppeteer e Cheerio, o TicketScraper foi feito para realizar web scrap de informações da conta do [Ticket](https://www.ticket.com.br/), como cartões (saldo, apelido, tipo e status), informações de contato e identificação do usuário.
+Construída com NodeJS, Express, Puppeteer, Cheerio, Mongoose e MongoDB, o TicketScraper foi feito para realizar web scrap de informações da conta do [Ticket](https://www.ticket.com.br/), como cartões (saldo, apelido, tipo e status), informações de contato e identificação do usuário.
 
 A aplicação dispõe de um frontend próprio, tendo também possibilidade de consumo via API, contando com cors habilitado por padrão.
 
@@ -15,7 +15,7 @@ Para rodar a aplicação é necessário ter o [NodeJS](https://nodejs.org/en/dow
     - Em produção: `npm start`
 
 ### API
-As rotas da api são prefixadas com `/api` para evitar cinflitos com os arquivis estáticos servidos pelo express.
+As rotas da api são prefixadas com `/api` para evitar cinflitos com os arquivos estáticos (frontend) servidos pelo express.
 
 `POST /api/scrap`
 #### Request Body
