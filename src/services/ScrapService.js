@@ -45,7 +45,7 @@ class ScrapService {
 
   async _extractCardsData (browser) {
     const cardsPage = await PageHelper.create(browser, {
-      url: 'https://www.ticket.com.br/portal-usuario/meus-cartoes',
+      url: 'https://www.ticket.com.br/portal-usuario/meus-cartoes/',
       watiForSelectors: ['#histFaturamento > div.table-auto', 'section.carousel-wrapper > ul']
     })
 
