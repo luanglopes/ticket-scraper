@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+form > button {
+    padding: 4px 8px;
+}
+
+.form-field-container {
+    margin-bottom: 12px;
+}
+
+.form-field-container > input {
+    padding: 4px 8px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+#information {
+    padding-top: 16px;
+}
+
+#error-message {
+    color: red;
+}
+
+#user-info {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table > tr > td {
+    padding: 6px;
+}
+
+table > tr > td:first-child {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+table, td {
+    border: 1px solid black;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
